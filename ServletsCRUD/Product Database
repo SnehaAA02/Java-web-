@@ -1,0 +1,7 @@
+create table product(id int, name varchar(50), price double, qty int,primary key(id));
+
+insert into product values(101,'kitkat',20,100);
+insert into product values(102,'munch',10,400);
+insert into product values(103,'Dairy Milk',180,200);
+
+select * from product;
